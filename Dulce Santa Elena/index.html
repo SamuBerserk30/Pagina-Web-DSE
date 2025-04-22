@@ -5,27 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dulce Santa Elena</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <header>
         <nav>
-        <img src="./src/14979.jpg" width="300" height="250">
+        <img src="./src/14979.jpg" alt="Logo DSE" width="200" height="130">
+        <div class="nav-buttons">
         <ul>
-            <li><a href="./Index.html">Inicio</a></li>
-            <li><a href="./Menu.html">Menu</a></li>
-            <li><a href="./Contacto.html">Contacto</a></li>
-            <li><a href="./Ubicacion.html">Ubicacion</a></li>
+            <a href="./Index.html" class="nav-button">Inicio</a>
+            <a href="./Menu.html" class="nav-button">Menu</a>
+            <a href="./Contacto.html" class="nav-button">Contacto</a>
+            <a href="./Ubicacion.html" class="nav-button">Ubicacion</a>
         </ul>
+        </div>
         </nav>
     </header>
     <main>
         <section>
-            <h1>Bienvenidos a Dulce Santa Elena</h1>
-            <p>En Dulce Santa Elena encontrasras los mejores merengones, fresas con crema, obleas,
+            <h1>Bienvenidos a Dulce Santa Elena </h1>
+            <p>En Dulce Santa Elena encontrarás los mejores merengones, fresas con crema, obleas,
                fresas con chocolate, solteritas, crispetas, mango y mucho mas.
                Que esperas para visitarnos.</p>
         </section>
-            <img src="./src/14129.jpg" alt="DSE local" width="500" height="500">
+        <div class="container">
+            <div class="box-container">
+                <a href="./Menu.html" class="box">
+                    <div class="box-img">
+                    <img src="./src/14870.jpg " alt="Img Menu">
+                    </div>
+                <div class="box-content">
+                    <div class="overlay"></div>
+                    <div class="box-title">Menu</div>
+            </div>
+            </a>
+            <a href="./Contacto.html" class="box">
+                <div class="box-img">
+                <img src="./src/14979.jpg " alt="Img Contactanos">
+                </div>
+            <div class="box-content">
+                <div class="overlay"></div>
+                <div class="box-title">Contactanos</div>
+            </div>
+            </a>
+                <a href="./Ubicacion.html" class="box">
+                    <div class="box-img">
+                    <img src="./src/14129.jpg " alt="Img Local">
+                    </div>
+                <div class="box-content">
+                    <div class="overlay"></div>
+                    <div class="box-title">Ubicacion</div>
+            </div>
+            </a> 
     </main>   
 </body>
 </html>
