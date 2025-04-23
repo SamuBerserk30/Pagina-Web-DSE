@@ -65,19 +65,19 @@ p{
         justify-content: center;
     }
     
-    /* Estilo para cada caja */
+    
     .box {
         width: 300px;
-        height: 250px; /* Altura fija para la caja */
-        border-radius: 15px; /* Bordes redondeados */
+        height: 250px; 
+        border-radius: 15px; 
         overflow: hidden;
-        position: relative; /* Importante para posicionar elementos dentro */
+        position: relative; 
         box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         margin: 10px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     
-    /* Efecto hover */
+    
     .box:hover {
         transform: translateY(-5px);
         box-shadow: 0 10px 20px rgba(0,0,0,0.3);
@@ -102,9 +102,9 @@ p{
     .box:hover .box-img img{
         transform: scale(1.1);
     }
-     /* Contenido de texto */
+    
      .box-content {
-        padding: 20px; /* Padding interior */
+        padding: 20px;
     }
     
     .overlay {
@@ -118,7 +118,7 @@ p{
     }
     .box-title {
         position: absolute;
-        bottom: 30px; /* Espacio para que no se superponga con el botón */
+        bottom: 30px; 
         left: 95px;
         color: aliceblue;
         font-size: 24px;
